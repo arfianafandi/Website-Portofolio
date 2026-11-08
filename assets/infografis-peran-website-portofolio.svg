@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #1a1c18; }
+      .card-bg { fill: #222520; stroke: #3a3d35; stroke-width: 1; }
+      .card-accent { fill: #282c24; stroke: #c7a66a; stroke-width: 1.5; }
+      .gold { fill: #c7a66a; }
+      .gold-light { fill: #dfc895; }
+      .cream { fill: #f0ede5; }
+      .muted { fill: #9e9c91; }
+      .arrow { stroke: #c7a66a; stroke-width: 1.5; stroke-dasharray: 4,4; fill: none; }
+      .solid-arrow { stroke: #dfc895; stroke-width: 2; fill: none; }
+      .tag { font-family: 'DM Sans', sans-serif; font-size: 10px; letter-spacing: 2px; font-weight: 600; }
+      .title { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 24px; font-weight: 600; }
+      .body { font-family: 'DM Sans', sans-serif; font-size: 12px; line-height: 1.5; }
+      .heading { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 28px; font-weight: 700; letter-spacing: 1px; }
+      .subhead { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 2px; }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#c7a66a" />
+    </marker>
+    <marker id="arrowhead-gold" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#dfc895" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="480" rx="12" class="bg" />
+  <rect x="15" y="15" width="870" height="450" rx="8" fill="none" stroke="#2c2e27" stroke-width="1" />
+
+  <!-- Header -->
+  <text x="45" y="55" class="tag gold">EKOSISTEM DIGITAL SENIMAN VISUAL</text>
+  <text x="45" y="85" class="heading cream">Media Sosial vs. Website Portofolio Mandiri</text>
+  <text x="45" y="105" class="body muted">Peran strategis setiap kanal dalam membangun karier kreatif yang berkelanjutan.</text>
+
+  <!-- Card 1: Social Media -->
+  <g transform="translate(45, 130)">
+    <rect width="240" height="300" rx="8" class="card-bg" />
+    <circle cx="35" cy="38" r="16" fill="#32362d" />
+    <text x="35" y="43" text-anchor="middle" class="gold" font-family="'DM Sans',sans-serif" font-size="14" font-weight="bold">01</text>
+    <text x="65" y="35" class="tag muted">CORONG AWAL</text>
+    <text x="65" y="50" class="title cream">Media Sosial</text>
+    <line x1="20" y1="72" x2="220" y2="72" stroke="#33372e" />
+
+    <text x="25" y="100" class="body muted">Karakteristik &amp; Keterbatasan:</text>
+    <text x="25" y="125" class="body cream">• Platform Sewaan (Rented Land)</text>
+    <text x="25" y="150" class="body cream">• Bergantung Algoritma &amp; Tren</text>
+    <text x="25" y="175" class="body cream">• Kompresi Gambar Agresif</text>
+    <text x="25" y="200" class="body cream">• Rawan Distraksi Feed &amp; Iklan</text>
+    
+    <rect x="20" y="235" width="200" height="45" rx="4" fill="#1b1c18" stroke="#353830" />
+    <text x="120" y="255" text-anchor="middle" class="tag gold">FUNGSI UTAMA</text>
+    <text x="120" y="270" text-anchor="middle" class="body muted">Jangkauan Luas &amp; Audiens Baru</text>
+  </g>
+
+  <!-- Connecting Arrow 1 -> 2 -->
+  <path d="M 295 280 L 335 280" class="arrow" marker-end="url(#arrowhead)" />
+  <text x="315" y="270" text-anchor="middle" class="tag gold" font-size="9">TRAFFIC</text>
+
+  <!-- Card 2: Personal Website (Center Hero) -->
+  <g transform="translate(345, 120)">
+    <rect width="250" height="320" rx="8" class="card-accent" />
+    <circle cx="35" cy="40" r="18" fill="#c7a66a" />
+    <text x="35" y="46" text-anchor="middle" fill="#171815" font-family="'DM Sans',sans-serif" font-size="15" font-weight="bold">02</text>
+    <text x="65" y="34" class="tag gold">PANGGUNG UTAMA</text>
+    <text x="65" y="52" class="title gold-light">Website Portofolio</text>
+    <line x1="20" y1="74" x2="230" y2="74" stroke="#484436" />
+
+    <text x="25" y="102" class="body gold-light">Keunggulan Hakiki:</text>
+    <text x="25" y="127" class="body cream">✓ 100% Kendali &amp; Kepemilikan</text>
+    <text x="25" y="152" class="body cream">✓ Kurasi Karya Tanpa Distraksi</text>
+    <text x="25" y="177" class="body cream">✓ Visual Hi-Res Tanpa Kompresi</text>
+    <text x="25" y="202" class="body cream">✓ Terindeks Mesin Pencari (SEO)</text>
+    <text x="25" y="227" class="body cream">✓ Standar Klien Internasional</text>
+
+    <rect x="20" y="250" width="210" height="50" rx="4" fill="#1a1c17" stroke="#c7a66a" stroke-width="1" />
+    <text x="125" y="270" text-anchor="middle" class="tag gold">RUMAH KREATIF DIGITAL</text>
+    <text x="125" y="287" text-anchor="middle" class="body cream" font-weight="600">Pusat Kredibilitas &amp; Konversi</text>
+  </g>
+
+  <!-- Connecting Arrow 2 -> 3 -->
+  <path d="M 605 280 L 645 280" class="arrow" marker-end="url(#arrowhead)" />
+  <text x="625" y="270" text-anchor="middle" class="tag gold" font-size="9">KOLABORASI</text>
+
+  <!-- Card 3: Opportunities / Output -->
+  <g transform="translate(655, 130)">
+    <rect width="200" height="300" rx="8" class="card-bg" />
+    <circle cx="35" cy="38" r="16" fill="#32362d" />
+    <text x="35" y="43" text-anchor="middle" class="gold" font-family="'DM Sans',sans-serif" font-size="14" font-weight="bold">03</text>
+    <text x="65" y="35" class="tag muted">HASIL AKHIR</text>
+    <text x="65" y="50" class="title cream">Karier &amp; Klien</text>
+    <line x1="20" y1="72" x2="180" y2="72" stroke="#33372e" />
+
+    <text x="20" y="100" class="body muted">Dampak Nyata:</text>
+    <text x="20" y="125" class="body cream">• Art Director &amp; Penerbit</text>
+    <text x="20" y="150" class="body cream">• Kontrak Komisi Resmi</text>
+    <text x="20" y="175" class="body cream">• Lisensi Hak Cipta Karya</text>
+    <text x="20" y="200" class="body cream">• Nilai Jual Lebih Tinggi</text>
+
+    <rect x="15" y="235" width="170" height="45" rx="4" fill="#1b1c18" stroke="#353830" />
+    <text x="100" y="255" text-anchor="middle" class="tag gold">HASIL</text>
+    <text x="100" y="270" text-anchor="middle" class="body muted">Karier Mandiri &amp; Stabil</text>
+  </g>
+</svg>

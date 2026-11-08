@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arfianafandi.github.io/Website-Portofolio/sitemap.xml
